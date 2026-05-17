@@ -4,6 +4,7 @@ import Writing from './webpages/Writing'
 import Photography from './webpages/Photography'
 import Projects from './webpages/Projects'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/photography" element={<Photography />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
   )
 }
