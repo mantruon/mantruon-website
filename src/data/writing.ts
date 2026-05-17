@@ -3,7 +3,6 @@ export interface Essay {
     date: string
     slug: string
     excerpt: string
-    content: string
 }
 
 export const essays: Essay[] = [
