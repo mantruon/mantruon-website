@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Be+Vietnam+Pro:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #f5f0e8;
+    --bg-card: #ede8df;
+    --text: #2c2517;
+    --text-muted: #9c8f7a;
+    --accent: #8b6f47;
+    --border: #ddd5c4;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8rem 4rem;
+    border-bottom: 1px solid var(--border);
+}
+
+nav .logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--text);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+nav .links {
+    display: flex;
+    gap: 2.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: var(--text);
+}
+
+/* Main content */
+main {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Be Vietnam Pro', sans-serif; /* updated */
+    font-weight: 300;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Lora', serif; /* updated */
+    font-size: 2.8rem;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    margin-bottom: 2.5rem;
+    color: var(--text);
+}
+
+h2 {
+    font-family: 'Lora', serif; /* updated */
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 0.4rem;
+}
+
+/* Writing page */
+.essay-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 1rem;
+}
+
+.essay-card {
+    border-top: 1px solid var(--border);
+    padding: 2rem 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.essay-card:last-child {
+    border-bottom: 1px solid var(--border);
+}
+
+.essay-card:hover h2 {
+    color: var(--accent);
+}
+
+.essay-card .date {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-bottom: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.essay-card .excerpt {
+    line-height: 1.8;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+}
+
+/* Essay detail */
+.essay-detail h1 {
+    margin-bottom: 0.5rem;
+}
+
+.essay-detail .date {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-bottom: 3rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.essay-detail .content p {
+    line-height: 1.95;
+    font-size: 1.05rem;
+    color: var(--text);
+    margin-bottom: 1.5rem;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    padding: 0;
+    margin-bottom: 3rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: 'Jost', sans-serif;
+    transition: color 0.2s ease;
+}
+
+.back-button:hover {
+    color: var(--accent);
+}
+
+/* Projects page */
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 1rem;
+}
+
+.project-card {
+    border-top: 1px solid var(--border);
+    padding: 2rem 0;
+}
+
+.project-card:last-child {
+    border-bottom: 1px solid var(--border);
+}
+
+.project-card p {
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+}
+
+.project-card .stack {
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-top: 0.75rem;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 0.75rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1px;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.project-card a:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
