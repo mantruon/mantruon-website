@@ -1,8 +1,8 @@
-# Lessons Learned: Grief, tangerines and the Moon — lessons on mortality
+# Lessons Learned
 
-This is the full content of your essay written in Markdown. You can use all standard Markdown formatting:
+Lessons Learned is a colummn I wrote to reflect on all the things in life often gone unsaid. I want to share this with you, the reader, in hopes you learned something as well.
 
-## A Subheading
+## Grief, tangerines and the Moon — lessons on mortality
 
 Content warning: This piece contains references to death.
 
@@ -24,4 +24,4 @@ And on the day before Tết, we’d get into our áo dài and go to the temple t
 
 On my first Tết away from home I sat homesick, missing the bickering of my family. I would miss the stupid arguments they’d have after drinking too much, after losing too much money gambling. I miss the smell of gunpowder that filled the air. The red casings of firecrackers littering the streets. That year, I forgot to clean. Forgot to ward off evil spirits and give up offerings. And so, I sat there all alone, peeling mandarin after mandarin and lighting a single stick of incense, offering a silent prayer to the boy I love. Because in that moment, I could use all the luck I could get.
 
-Man Truong is a junior writing on reflections made in life. In a world full of different personal beliefs and philosophies, he makes sense of it in his column, “Lessons Learned.”
+*Man Truong is a junior writing on reflections made in life. In a world full of different personal beliefs and philosophies, he makes sense of it in his column, “Lessons Learned.”*
