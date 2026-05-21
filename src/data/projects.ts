@@ -15,7 +15,7 @@ export const projects: Project[] = [
         description: "A probing study investigating whether OpenAI's Whisper encoder encodes phonologically meaningful representations of Vietnamese tones across its internal layers.",
         stack: ["Python", "PyTorch", "HuggingFace", "Whisper", "scikit-learn"],
         repo: "https://github.com/mantruon/ling487-final",
-        paper: "/academic%20papers/whisper-probing.pdf"
+        paper: "/academic_papers/whisper-probing.pdf"
     },
     {
         title: "Lewis Carroll GPT",
