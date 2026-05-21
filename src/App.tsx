@@ -3,6 +3,7 @@ import Home from './webpages/Home'
 import Writing from './webpages/Writing'
 import Photography from './webpages/Photography'
 import Projects from './webpages/Projects'
+import ProjectDetail from './webpages/ProjectDetail'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
@@ -15,6 +16,8 @@ export default function App() {
           <Route path="/writing" element={<Writing />} />
           <Route path="/photography" element={<Photography />} />
           <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/:slug" element={<ProjectDetail />} />
+
         </Routes>
         <Footer />
       </BrowserRouter>

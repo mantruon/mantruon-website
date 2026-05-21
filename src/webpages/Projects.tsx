@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { projects } from '../data/projects'
 
 export default function Projects() {
@@ -6,13 +7,11 @@ export default function Projects() {
             <h1>Projects</h1>
             <div className="project-list">
                 {projects.map(project => (
-                    <div key={project.title} className="project-card">
+                    <Link to={`/projects/${project.slug}`} key={project.slug} className="project-card" style={{ textDecoration: 'none' }}>
                         <h2>{project.title}</h2>
                         <p>{project.description}</p>
                         <p className="stack">{project.stack.join(' · ')}</p>
-                        {project.repo && <a href={project.repo} target="_blank">GitHub →</a>}
-                        {project.demo && <a href={project.demo} target="_blank">Demo →</a>}
-                    </div>
+                    </Link>
                 ))}
             </div>
         </main>

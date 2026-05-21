@@ -4,7 +4,7 @@ Lessons Learned is a colummn I wrote to reflect on all the things in life often 
 
 ## Grief, tangerines and the Moon — lessons on mortality
 
-Content warning: This piece contains references to death.
+*Content warning: This piece contains references to death.*
 
 Look at the Moon. It’s the same Moon whether you look at it from here in Los Angeles or anywhere else in the world, we share the same Moon. Isn’t that neat? When I was six, I remember walking home late at night from my cousin’s house. The night was cold, and soft moonlight peeked through the clouds, shedding light onto the sidewalk, as if illuminating my way home. Trying to grab the elusive ball of light within my child-sized hands, I ran after it, with my light-up Skechers keeping away the dark. But it was too far away. In an attempt to be a little closer to the Moon, I asked my dad for a shoulder ride. And so we walked home, one 7,533 miles from our humble hamlet in Viet Nam.
 
