@@ -32,7 +32,7 @@ export default function Home() {
                 <Link to="/writing" className="card">
                     <div className="card-icon">✏️</div>
                     <h2>Writing</h2>
-                    <p>Essays and reflections on language, technology, and life.</p>
+                    <p>Essays and reflections on where life intersects.</p>
                     <span className="card-link">Read More →</span>
                 </Link>
 
