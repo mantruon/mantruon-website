@@ -22,7 +22,7 @@ export const projects: Project[] = [
         slug: "lewis-carroll-gpt",
         description: "A character-level language model trained on Lewis Carroll texts for phonotactic modeling, built with HuggingFace's GPT2LMHeadModel.",
         stack: ["Python", "PyTorch", "HuggingFace"],
-        repo: "https://github.com/mantruon/your-repo-name"
+        repo: "https://github.com/mantruon/gpt-text-prediction-model"
     },
     {
         title: "Vowel Classifier",

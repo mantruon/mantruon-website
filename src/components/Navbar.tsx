@@ -13,13 +13,13 @@ export default function Navbar() {
                     <PenLine size={14} strokeWidth={1.5} />
                     Writing
                 </Link>
-                <Link to="/photography">
-                    <Camera size={14} strokeWidth={1.5} />
-                    Photography
-                </Link>
                 <Link to="/projects">
                     <Code2 size={14} strokeWidth={1.5} />
                     Projects
+                </Link>
+                <Link to="/photography">
+                    <Camera size={14} strokeWidth={1.5} />
+                    Photography
                 </Link>
             </div>
             <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>
@@ -31,13 +31,13 @@ export default function Navbar() {
                         <PenLine size={14} strokeWidth={1.5} />
                         Writing
                     </Link>
-                    <Link to="/photography" onClick={() => setIsOpen(false)}>
-                        <Camera size={14} strokeWidth={1.5} />
-                        Photography
-                    </Link>
                     <Link to="/projects" onClick={() => setIsOpen(false)}>
                         <Code2 size={14} strokeWidth={1.5} />
                         Projects
+                    </Link>
+                    <Link to="/photography" onClick={() => setIsOpen(false)}>
+                        <Camera size={14} strokeWidth={1.5} />
+                        Photography
                     </Link>
                 </div>
             )}
